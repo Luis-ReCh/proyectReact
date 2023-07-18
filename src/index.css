@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: rgb(231, 230, 230);
+}
+.cardList:not(:first-of-type) .imgList {
+  display: none;
+}
